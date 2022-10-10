@@ -10,6 +10,12 @@ const Home = () => {
 
     return (
         <div className='home-container'>
+
+            <div className='title'>
+                <div>
+                    <h1 className='show'>Rate Yourself Through Online Exam</h1>
+                </div>
+            </div>
             <div className='box'>
                 {
                     data.map(cardOfExam => <ExamCard
