@@ -8,7 +8,7 @@ const ExamCard = ({ cardOfExam }) => {
     return (
         <div className='card-container'>
 
-            <Card className='m-5 text-white' style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img className='bg-dark' variant="top" src={logo} />
                 <Card.Body className='bg-success'>
                     <Card.Title>{name}</Card.Title>
