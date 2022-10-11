@@ -8,6 +8,9 @@ const Home = () => {
     console.log(cardsOfExam);
     const { data } = cardsOfExam;
 
+
+
+
     return (
         <div className='home-container'>
 
@@ -21,6 +24,7 @@ const Home = () => {
                     data.map(cardOfExam => <ExamCard
                         cardOfExam={cardOfExam}
                         key={cardOfExam.id}
+
                     ></ExamCard>)
                 }
             </div>

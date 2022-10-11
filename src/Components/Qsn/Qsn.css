@@ -1,0 +1,25 @@
+.qsn-div {
+    margin: 0 auto;
+    background-color: gray;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    padding-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: darkgray;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 15px;
+
+}

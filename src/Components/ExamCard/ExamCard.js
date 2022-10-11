@@ -1,10 +1,11 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
+import { Link, } from 'react-router-dom';
 import './ExamCard.css';
 
 const ExamCard = ({ cardOfExam }) => {
-    const { logo, name, total } = cardOfExam;
+    const { id, logo, name, total } = cardOfExam;
     return (
 
 
@@ -21,7 +22,7 @@ const ExamCard = ({ cardOfExam }) => {
                         <Card.Text>
                             {total}
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Link to={`/${id}`}>Exam</Link>
                     </Card.Body>
                 </Card>
             </div>

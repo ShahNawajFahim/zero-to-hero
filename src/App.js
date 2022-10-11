@@ -5,6 +5,7 @@ import Main from './layouts/Main';
 import Home from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
 import Statistic from './Components/Statistic/Statistic';
+import Mcq from './Components/Mcq/Mcq';
 
 function App() {
 
@@ -27,6 +28,14 @@ function App() {
         {
           path: 'statistic',
           element: <Statistic></Statistic>
+        },
+        {
+          path: '/:quizId',
+          loader: async ({ params }) => {
+            return fetch(` https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
+          },
+
+          element: <Mcq></Mcq>
         }
 
 
