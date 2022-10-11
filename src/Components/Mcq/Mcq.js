@@ -10,6 +10,7 @@ const Mcq = () => {
     const { data } = mcqExam;
     const { questions } = data;
 
+
     console.log(questions);
 
 
@@ -28,6 +29,9 @@ const Mcq = () => {
 
 
                 }
+
+
+
             </div>
         </div>
     );
