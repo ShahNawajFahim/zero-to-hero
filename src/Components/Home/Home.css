@@ -6,6 +6,7 @@
     height: 300px;
 
 
+
 }
 
 .title {
@@ -26,5 +27,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    background-color: black;
 
 }

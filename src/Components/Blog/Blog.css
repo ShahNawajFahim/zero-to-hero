@@ -1,0 +1,18 @@
+.full-blog {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.blogs {
+
+    border: 3px solid white;
+    background-color: grey;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 12px;
+}
+
+h1 {
+    padding-top: 3%;
+    color: white;
+}
