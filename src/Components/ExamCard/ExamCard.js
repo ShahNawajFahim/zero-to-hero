@@ -2,6 +2,8 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card';
 import { Link, } from 'react-router-dom';
+
+
 import './ExamCard.css';
 
 const ExamCard = ({ cardOfExam }) => {
@@ -22,10 +24,11 @@ const ExamCard = ({ cardOfExam }) => {
                         <Card.Text>
                             {total}
                         </Card.Text>
-                        <Link to={`/${id}`}>Exam</Link>
+                        <Link id='exam' to={`/${id}`}>Exam</Link>
                     </Card.Body>
                 </Card>
             </div>
+
 
         </div>
 

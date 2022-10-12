@@ -10,19 +10,11 @@
 
 }
 
-ul {
-    list-style: none;
+.butttons {
+
+    margin-right: 2px;
 }
 
-li {
-    background-color: darkgray;
-    padding: 10px;
-    margin-right: 10px;
-    border: 2px solid white;
-    margin-top: 10px;
-    border-radius: 15px;
-
-}
 
 .optn {
     background-color: darkgray;
@@ -31,4 +23,5 @@ li {
     border: 2px solid white;
     margin-top: 10px;
     border-radius: 15px;
+    padding-right: 5px;
 }

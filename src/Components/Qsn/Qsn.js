@@ -30,14 +30,14 @@ const Qsn = ({ qsn }) => {
         <div className='qsn-div'>
 
             <h5>{question}</h5>
-            <ul >
+            <div className='butttons'>
 
                 <button className='toaster optn' onClick={() => ans(options[0])}>{options[0]}</button><ToastContainer />
                 <button className='toaster optn' onClick={() => ans(options[1])}>{options[1]}</button><ToastContainer />
                 <button className='toaster optn' onClick={() => ans(options[2])}>{options[2]}</button><ToastContainer />
                 <button className='toaster optn' onClick={() => ans(options[3])}>{options[3]}</button><ToastContainer />
 
-            </ul>
+            </div>
             <FontAwesomeIcon onClick={notify} icon={faEye}></FontAwesomeIcon>
         </div>
     );

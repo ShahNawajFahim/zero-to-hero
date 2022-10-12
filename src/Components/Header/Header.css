@@ -5,10 +5,22 @@
     justify-content: space-between;
 }
 
-a {
+a.link-div {
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     font-size: 20px;
     padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav-bar {
+        background-color: rgb(3, 117, 68);
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 
 }

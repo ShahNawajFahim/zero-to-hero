@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+
 import Qsn from '../Qsn/Qsn';
 
 const Mcq = () => {
@@ -16,7 +17,7 @@ const Mcq = () => {
 
     return (
         <div>
-            <h1>Answer The Questions</h1>
+            <h2 className=''>Answer The Questions { }</h2>
             <div>
                 {
 
