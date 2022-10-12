@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './layouts/Main';
 import Home from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
-import Statistic from './Components/Statistic/Statistic';
 import Mcq from './Components/Mcq/Mcq';
+import Rechart from './Components/Rechart/Rechart';
 
 function App() {
 
@@ -25,10 +25,13 @@ function App() {
           path: 'blog',
           element: <Blog></Blog>
         },
+
         {
-          path: 'statistic',
-          element: <Statistic></Statistic>
+          path: 'rechart',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Rechart></Rechart>
         },
+
         {
           path: '/:quizId',
           loader: async ({ params }) => {
